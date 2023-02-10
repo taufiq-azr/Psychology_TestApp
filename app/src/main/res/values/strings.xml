@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PsyTest</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="nav_username">Username</string>
+    <string name="nama">Nama Dosen</string>
+    <string name="contoh_nama">Taufiq</string>
+
+    <string name="jumlah_kategori">10 SOAL</string>
+</resources>

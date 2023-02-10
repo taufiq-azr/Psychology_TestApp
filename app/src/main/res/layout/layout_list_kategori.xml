@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="false">
+
+    <RelativeLayout
+        android:id="@+id/rl_klik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0E0E0"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/gambar_dosen"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/nama_kategori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@+id/gambar_dosen"
+            android:text="@string/contoh_nama"
+            android:textColor="#000000"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/jumlah_kategori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama_kategori"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="24dp"
+            android:layout_toEndOf="@+id/gambar_dosen"
+            android:text="@string/jumlah_kategori"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
